@@ -1,0 +1,39 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+.faq_box{
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    padding: 24px;
+    cursor: pointer;
+}
+.faq_box img{
+    width: 20px;
+    /* justify-self: end; */
+}
+.faq_box p{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.faq_summary{
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    padding: 24px;
+    cursor: pointer;
+}
+.faq_summary p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq_summary:hover{
+    background-color: rgb(70, 69, 69)
+}
+.pluse{
+    height: 35px;
+    object-fit: cover;
+}

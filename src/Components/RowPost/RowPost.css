@@ -1,0 +1,123 @@
+.row{
+    margin-top: 20px;
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    /* background-color: antiquewhite; */
+}
+.posters{
+    display: flex;
+    justify-content: start;
+    margin-left: -15px;
+    align-items: start;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    /* max-height: 190px; */
+    max-height: 220px;
+    /* margin-right: 5px; */
+    margin-right: 10px;
+    /* border: px solid black; */
+    transition: scale 0.3s ease,margin 0.2s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.poster:hover{
+    scale: 1.13;
+    margin: 0 32px;
+    border-radius: 5px;
+    filter: brightness(70%);
+    
+}
+/* .smallPoster:not(:hover){
+} */
+.smallPoster:hover{
+    scale: 1.12;
+    /* scale: 1.17; */
+    margin: 0 30px;
+    border-radius: 5px;
+    filter: brightness(70%);
+}
+/* .smallPoster:hover .movieName{
+    color: yellow;
+} */
+/* .poster:not(:hover) */
+.smallPoster{
+    margin-top: 10px;
+    /* max-width: 330px; */
+    max-height: 220px;
+    margin-left: 10px;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.845);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* padding: 50px; */
+  }
+
+.modalContent {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .movieName {
+    /* background-color: black; */
+    display: inline;
+    position: relative;
+    top: -50px;
+    left: 30px;
+    z-index: 5;
+    font-weight: 600;
+    font-size: 19px;
+    /* color: black; */
+    max-width: 340px;
+  }
+  .discription{
+    width: 220px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+  }

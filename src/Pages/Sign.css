@@ -1,0 +1,77 @@
+nav{
+    position: relative;
+    /* height: 100px; */
+    /* background-color: aquamarine; */
+}
+nav img{
+    width: 110px;
+    /* position: absolute; */
+    left: 40px;
+    /* margin-right: 70px; */
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    /* background-color: white; */
+}
+.sign_content{
+    height: 100vh;
+    /* background-color: aqua; */
+       /* width: 100vw; */
+       height: 100vh;
+       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.37) 50%, rgba(0, 0, 0, 0.359) 0%, rgba(0, 0, 0, 0.808)), 
+       url(../../public/Login_back.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       /* background-size: cover; */
+       display: flex;
+       /* flex-direction: column; */
+       justify-content: center;
+       align-items: center;
+}
+.sign_card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    /* height: 400px; */
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+.sign_card input{
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: rgb(34, 34, 34);
+    border: 0.1px solid gray;
+}
+
+.Link{
+    /* text-decoration: none; */
+    color: rgba(255, 255, 255, 0.488);
+    /* color: white; */
+    /* text-decoration: none; */
+    /* text-underline-position: 12px; */
+    text-underline-offset: 3px;
+    font-size: 15px;
+    font-weight: 400;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.664);
+}
+.btn button{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}

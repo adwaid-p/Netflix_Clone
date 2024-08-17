@@ -1,0 +1,33 @@
+.logout{
+    padding: 15px 31px;
+    position: absolute;
+    top: 67px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.838);
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: end;
+}
+.logout button{
+    display: inline;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: scale 0.5s ease;
+}
+.logout:hover{
+    background-color: rgb(88, 87, 87);
+}
+.logout:active{
+    scale: 1.05;
+}
+.log_out{
+    width: 20px;
+}

@@ -1,0 +1,150 @@
+.Result_banner{
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.episode_banner{
+    height: 100vh;
+    overflow: hidden;
+}
+.vote_average{
+    height: 100vh;
+    overflow: hidden;
+}
+.banner{
+    /* background-image: url('https://wallpaperaccess.com/full/2703652.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 475px; */
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.content{
+    padding-top: 120px;
+    height: 190px;
+    padding-left: 25px;
+    position: relative;
+    top: 200px;
+}
+.title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    /* padding-bottom: 0.3rem; */
+}
+
+.description{
+    width: 55rem;
+    line-height: 1.3;
+    /* letter-spacing: 0.3px; */
+    padding-top: 0.6rem;
+    font-size: 1.24rem;
+    /* height: 90px; */
+    max-width: 900px;
+    /* text-align: justify; */
+    font-weight: 400;
+    /* color: rgb(255, 255, 255); */
+    /* background-color: antiquewhite; */
+    color: rgba(255, 255, 255, 0.737);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.65rem 1.7rem;
+    background-color: rgba(99, 98, 98, 0.662);
+    cursor: pointer;
+    margin: 8px 0 0px;
+    margin-right: 1rem;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.button:hover{
+    /* color: black;
+    border-color: #e6e6e6; */
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
+.fade_bottom{
+    /* height: 7.4rem; */
+    height: 110vh;
+    background-image: linear-gradient(to left, transparent, rgba(18, 18, 18, 0.637) 75%);
+    /* background-image: linear-gradient(to bottom, transparent, rgba(18, 18, 18, 0.7) 95%); */
+    margin-top: -15%;
+    /* position: relative; */
+    /* bottom: -167px;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%); */
+}
+.play{
+    background-color: rgba(255, 255, 255, 0.567);
+    color: black;
+}
+
+.description img{
+    /* width: 22px; */
+    width: 40px;
+}
+.play img{
+    width: 25px;
+}
+.add img{
+    width: 25px;
+}
+.banner_buttons{
+    display: flex;
+}
+.status{
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+.episode_card{
+    width: auto;
+}
+
+.episode_image{
+    width: 100%;
+    border-radius: 3px;
+    transition: scale 0.2s ease;
+}
+.episode_image:hover{
+    scale: 1.1;
+}
+
+.episode_container{
+    /* width: 100vw; */
+    /* background-color: aqua; */
+    padding: 25px;
+    /* overflow-x: hidden; */
+}
+
+.episode{
+    width: 100%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 40px;
+}
+.seasone_title{
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.line{
+    background-color: rgb(52, 52, 52);
+    height: 9px;
+    margin-bottom: 20px;
+}
+.episode_name{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+}
